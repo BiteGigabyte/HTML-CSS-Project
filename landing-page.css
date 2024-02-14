@@ -7,7 +7,7 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: 39px; /* 185.714% */
-    letter-spacing: -0.657px;
+    /*letter-spacing: -0.657px;*/
 
 }
 
@@ -74,19 +74,29 @@ nav {
     height: 40px;
 }
 
+.nav-div > p {
+    margin-left: 13%;
+}
+
 .nav-div2 {
     height: 100%;
     display: inline-flex;
     align-items: center;
-    gap: 40px;
+    /*justify-content: center;*/
+    /*gap: 2.77777778%;*/
+    /*gap: 40px;*/
     /*gap: 3.90625%;*/
-    margin-left: 19.4444444%;
+    /*margin-left: 19.4444444%;*/
+    margin-left: 16.444444%;
 
     white-space: nowrap;
 
     margin-top: 0.75%;
 
-    width: 27.7777778%;
+    max-width: 27.7777778%;
+
+
+
 
 }
 
@@ -96,18 +106,37 @@ nav > .nav-div2 > a {
     color: rgba(255, 255, 255, 0.70);
     line-height: normal;
 
+
+    display: flex;
+    /*justify-content: center;*/
+    align-items: center;
+
     /*flex-grow: 1;*/
 
-    /*padding: 0 10px;*/
-    /*box-sizing: border-box;*/
-    /*width: 25%;*/
+    width: 25%;
+    height: 100%;
 
+    /*padding-left: 30px;*/
+    /*padding-left: 44px;*/
+    /*padding-right: 30px;*/
+    padding-left: 4.12252645vw;
+    box-sizing: border-box;
+}
 
+.nav-div2-a3 {
+    margin-left: 5%;
+}
+
+.nav-div2-a4 {
+    margin-left: 12%;
 }
 
 nav > .nav-div2 > a:hover {
 
-    box-sizing: border-box;
+    /*padding-left: 0;*/
+    /*padding-right: 0;*/
+
+    /*box-sizing: border-box;*/
 
 
     color: #5454D4;
@@ -117,8 +146,10 @@ nav > .nav-div2 > a:hover {
     /*font-style: normal;*/
     /*font-weight: 600;*/
     /*line-height: normal;*/
-    letter-spacing: -0.7px;
+    /*letter-spacing: +0.7px;*/
+    letter-spacing: -0.5px;
     /*letter-spacing: 0px;*/
+    /*width: 25%;*/
 }
 
 nav > button {
@@ -143,7 +174,8 @@ nav > button {
 
     margin-top: 0.9%;
 
-    margin-left: 16.0416667%;
+    /*margin-left: 16.0416667%;*/
+    margin-left: 20.041667%;
 
 }
 
