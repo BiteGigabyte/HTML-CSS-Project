@@ -2,7 +2,7 @@ body {
     margin: 0;
 
     color: rgba(255, 255, 255, 0.70);
-    font-family: Lato;
+    font-family: Lato, sans-serif;
     font-size: 21px;
     font-style: normal;
     font-weight: 400;
@@ -29,28 +29,20 @@ a {
 header {
     width: 100%;
     height: 100vh;
-    /*height: 1024px;*/
-    /*height: 23.0994812%;*/
 
     background: radial-gradient(50% 50% at 50% 50%, #353550 0%, rgba(25, 25, 27, 0.00) 100%);
 }
 
 nav {
     display: flex;
-    /*justify-content: center;*/
     align-items: center;
-    /*height: 11.0351562%;*/
     height: 10.4492188%;
 
     width: 100%;
 
     padding-top: 0.5%;
 
-    /*margin-top: 4.4921875%;*/
     box-sizing: border-box;
-    /*position: absolute;*/
-    /*top: 5%;*/
-
 }
 
 .nav-div {
@@ -60,7 +52,7 @@ nav {
     width: 13%;
 
     color: #FFF;
-    font-family: Montserrat;
+    font-family: Montserrat, sans-serif;
     font-size: 28px;
     font-style: normal;
     font-weight: 700;
@@ -102,6 +94,8 @@ nav {
 
     margin-top: 0.75%;
 
+    /*width: 30.7777778%;*/
+
     width: 30.7777778%;
 }
 
@@ -129,15 +123,20 @@ nav > .nav-div2 > a {
     /*padding-left: 44px;*/
     /*padding-right: 30px;*/
     /*padding-left: 4.12252645vw;*/
-    /*box-sizing: border-box;*/
+    box-sizing: border-box;
+}
+
+.nav-div2-a2 {
+    margin-right: 5%;
 }
 
 .nav-div2-a3 {
-    margin-left: 5%;
+    /*margin-left: 5%;*/
+    margin-right: 12%;
 }
 
 .nav-div2-a4 {
-    margin-left: 12%;
+    /*padding-left: 12%;*/
 }
 
 nav > .nav-div2 > a:hover {
@@ -149,14 +148,15 @@ nav > .nav-div2 > a:hover {
 
 
     color: #5454D4;
+    /*text-align: center;*/
     /*text-align: right;*/
-    font-family: "Nunito Sans";
-    /*font-size: 18px;*/
-    /*font-style: normal;*/
-    /*font-weight: 600;*/
-    /*line-height: normal;*/
-    letter-spacing: +0.7px;
-    /*letter-spacing: -0.5px;*/
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    /*letter-spacing: +0.7px;*/
+    letter-spacing: -0.5px;
     /*letter-spacing: 0px;*/
     /*width: 25%;*/
 }
@@ -231,10 +231,10 @@ nav > button:hover {
 
 .header-div > article > h3 {
     color: #FFF;
-    font-family: Lato;
+    /*font-family: Lato;*/
     font-size: 80px;
-    font-style: normal;
-    font-weight: 400;
+    /*font-style: normal;*/
+    /*font-weight: 400;*/
     line-height: 84px; /* 105% */
 
     /*width: 40.4166667%;*/
@@ -246,11 +246,11 @@ nav > button:hover {
 
 .header-div > article > p {
     color: rgba(255, 255, 255, 0.70);
-    font-family: Lato;
-    font-size: 21px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 39px; /* 185.714% */
+    /*font-family: Lato;*/
+    /*font-size: 21px;*/
+    /*font-style: normal;*/
+    /*font-weight: 400;*/
+    /*line-height: 39px; !* 185.714% *!*/
     letter-spacing: -0.657px;
 
     width: 74.4444444%;
@@ -273,9 +273,9 @@ nav > button:hover {
 
 
     color: #FFF;
-    font-family: Lato;
+    /*font-family: Lato;*/
     font-size: 20px;
-    font-style: normal;
+    /*font-style: normal;*/
     font-weight: 700;
     line-height: normal;
 }
@@ -329,10 +329,10 @@ main {
     width: 40.8333333%;
 
     color: #FFF;
-    font-family: Lato;
+    /*font-family: Lato;*/
     font-size: 60px;
-    font-style: normal;
-    font-weight: 400;
+    /*font-style: normal;*/
+    /*font-weight: 400;*/
     line-height: 70px; /* 116.667% */
 }
 
@@ -365,12 +365,12 @@ main {
     height: 50%;
 
 
-    color: rgba(255, 255, 255, 0.70);
-    text-align: center;
-    font-family: Lato;
+    /*color: rgba(255, 255, 255, 0.70);*/
+    /*text-align: center;*/
+    /*font-family: Lato;*/
     font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
+    /*font-style: normal;*/
+    /*font-weight: 400;*/
     line-height: 28px; /* 140% */
     letter-spacing: -0.5px;
 }
@@ -378,10 +378,10 @@ main {
 .main-section2 h2 {
     color: #FFF;
     text-align: center;
-    font-family: Lato;
+    /*font-family: Lato;*/
     font-size: 60px;
-    font-style: normal;
-    font-weight: 400;
+    /*font-style: normal;*/
+    /*font-weight: 400;*/
     line-height: 70px; /* 116.667% */
 
     margin-top: 2%;
@@ -408,9 +408,9 @@ main {
 .main-section2-div1 h3 {
     color: #FFF;
     text-align: center;
-    font-family: Lato;
+    /*font-family: Lato;*/
     font-size: 28px;
-    font-style: normal;
+    /*font-style: normal;*/
     font-weight: 600;
     line-height: normal;
     letter-spacing: -0.75px;
@@ -423,9 +423,9 @@ main {
 .main-section2-div2 h3 {
     color: #FFF;
     text-align: center;
-    font-family: Lato;
+    /*font-family: Lato;*/
     font-size: 28px;
-    font-style: normal;
+    /*font-style: normal;*/
     font-weight: 600;
     line-height: normal;
     letter-spacing: -0.75px;
@@ -478,9 +478,9 @@ footer {
 
 .footer-section1 > h3 {
     color: #FFF;
-    font-family: Lato;
+    /*font-family: Lato;*/
     font-size: 58px;
-    font-style: normal;
+    /*font-style: normal;*/
     font-weight: 800;
     line-height: normal;
 
@@ -536,10 +536,10 @@ footer {
 
 .footer-section2 h3 {
     color: #FFF;
-    font-family: Lato;
+    /*font-family: Lato;*/
     font-size: 60px;
-    font-style: normal;
-    font-weight: 400;
+    /*font-style: normal;*/
+    /*font-weight: 400;*/
     line-height: normal;
 
     width: 57.3611111%;
@@ -550,9 +550,9 @@ footer {
 .footer-section2 button {
     color: #FFF;
     text-align: center;
-    font-family: Lato;
+    /*font-family: Lato;*/
     font-size: 21px;
-    font-style: normal;
+    /*font-style: normal;*/
     font-weight: 700;
     line-height: normal;
 
