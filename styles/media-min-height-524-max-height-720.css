@@ -1,0 +1,42 @@
+/*@media screen and (min-height: 558px) and (max-height: 720px) {*/
+@media screen and (min-height: 524px) and (max-height: 720px) {
+
+    body {
+        font-size: 1.25em;
+    }
+
+    .body-div {
+        /*height: calc(432.910156vh + 406px);*/
+        /*height: calc(432.910156vh + 70.6521739vh);*/
+    }
+
+    main {
+        position: static;
+        top: 0;
+        /*top: -3.3%;*/
+    }
+    .footer-section1 {
+        position: static;
+        top: 0;
+    }
+
+    .header-div > article {
+
+        padding-top: 0;
+    }
+
+
+
+    .main-section1-div {
+        margin-bottom: 0;
+    }
+
+    .main-section2-div1 h3 {
+        margin: 0;
+    }
+
+    .main-section2-div2 h3 {
+        margin: 0;
+    }
+
+}
