@@ -1,8 +1,19 @@
 /*@media screen and (min-width: 500px) and (max-width: 1120px) {*/
-@media screen and (min-width: 623px) and (max-width: 1139px) {
+@media screen and (min-width: 647px) and (max-width: 1139px) {
+/*@media screen and (min-width: 623px) and (max-width: 1139px) {*/
     body {
-        font-size: 0.9em;
+        /*font-size: 0.9em;*/
+        /*font-size: 21px;*/
+        /*font-size: 1.313em;*/
+        font-size: 17px;
+
+        /*height: auto;*/
+
     }
+
+    /** {*/
+    /*    height: auto;*/
+    /*}*/
 
     /*.main-section2 h2 {*/
     /*    margin-top: 0;*/
@@ -40,7 +51,13 @@
         position: static;
         top: 0;
         /*top: -3.3%;*/
+        height: auto;
     }
+
+    .main-section1 {
+        height: auto;
+    }
+
     .footer-section1 {
         position: static;
         top: 0;
@@ -52,5 +69,8 @@
     }
 
 
+    .main-section2 {
+        height: auto;
+    }
 
 }

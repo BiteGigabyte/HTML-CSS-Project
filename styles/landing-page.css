@@ -221,6 +221,10 @@ nav > button:hover {
 
     /*padding-top: 22.4609375%;*/
 
+    overflow-x: hidden;
+    overflow-y: hidden;
+
+
 }
 
 .header-div > article {
@@ -417,6 +421,40 @@ main {
     margin-top: 3.9703125%;
 }
 
+.main-section2-blue {
+    background-color: rgba(84, 84, 212, 0.10);
+    width: 69px;
+    height: 69px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 50%;
+}
+
+.main-section2-yellow {
+    background-color: rgba(254, 220, 90, 0.10);
+    width: 69px;
+    height: 69px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 50%;
+}
+
+.main-section2-red {
+    background-color: rgba(240, 64, 55, 0.10);
+    width: 69px;
+    height: 69px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 50%;
+}
+
+
 .main-section2-div2 {
     display: flex;
 
@@ -610,4 +648,12 @@ aside > p {
     /*margin-left: 54.375%;*/
     /*width: 19.7916667%;*/
     margin-right: 8.3%;
+}
+
+.nav-div2 {
+    display: flex;
+}
+
+.aside-div2 {
+    display: none;
 }

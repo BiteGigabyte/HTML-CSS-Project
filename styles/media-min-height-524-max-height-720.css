@@ -2,13 +2,23 @@
 @media screen and (min-height: 524px) and (max-height: 720px) {
 
     body {
-        font-size: 1.25em;
+        /*font-size: 1.25em;*/
+        font-size: 17px;
+        /*overflow-x: hidden;*/
     }
 
     .body-div {
         /*height: calc(432.910156vh + 406px);*/
         /*height: calc(432.910156vh + 70.6521739vh);*/
     }
+
+    /** {*/
+    /*    height: auto;*/
+    /*}*/
+
+    /*header {*/
+    /*    height: auto;*/
+    /*}*/
 
     main {
         position: static;
@@ -26,6 +36,9 @@
     }
 
 
+    .main-section1 {
+        height: auto;
+    }
 
     .main-section1-div {
         margin-bottom: 0;
